@@ -1,0 +1,31 @@
+.events{
+    &__content{
+        display: flex;
+    }
+    span{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #292929;
+
+    }
+    &__macarons{
+        padding-left: 122px;
+    }
+    h1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+        color: #292929;
+        padding-bottom: 50px;
+    }
+    img:hover {
+        opacity: 0.6;
+      }
+}

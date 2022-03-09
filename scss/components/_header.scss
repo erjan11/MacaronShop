@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../../fonts/Mark\ Simonson\ \ Proxima\ Nova\ Condensed\ Light\ TheFontsMaster.com.otf");
+}
+
+.header{
+    background: #F7EBE5;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav{
+        display: flex;
+    &__list{
+        display: flex;
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(0, 0, 0, 0.79);
+    }
+    &__item{
+        list-style-type: none;
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(0, 0, 0, 0.79);
+        padding-left: 40px;
+    }
+
+    a{
+        font-family: "Proxima Nova";
+        text-decoration: none;
+        list-style-type: none;
+        color: rgba(0, 0, 0, 0.79);
+    }
+}
+    .social{
+        margin-top: 7px;
+        .phone{
+            margin-left: 40px;
+        }
+    &__bct{
+        cursor: pointer;
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(0, 0, 0, 0.79);
+        padding-right: 20px;
+    }
+    &__num{
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        padding-right: 20px;
+        color: #2B1414;
+        cursor: pointer;
+    }
+    &__img{
+        margin-left: 10px;
+    }
+}
+}
+
+.headerr{
+    .sets{
+                display: flex;
+                &__list{
+                    display: flex;
+                    align-items: center;
+                    list-style-type: none;
+                    margin-left: 150px;
+                }
+                a{
+                    text-decoration: none;
+                    font-family: "Proxima Nova";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-transform: uppercase;
+                    color: #2B1414;
+                    margin-left: 40px;
+                }
+            }
+}
+

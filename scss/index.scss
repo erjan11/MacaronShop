@@ -1,0 +1,29 @@
+@import './components/header';
+@import './components/footer';
+
+@import './sections/hero';
+@import './sections/care';
+@import './sections/events';
+@import './sections/quality';
+@import './sections/presents';
+@import './sections/questions';
+@import './sections/delivery';
+@import './sections/payment';
+@import './sections/wholesaler';
+@import './sections/offers';
+@import './sections/instagram';
+@import './sections/cooperation';
+@import './sections/contacts';
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: #F7F7F7;
+}
