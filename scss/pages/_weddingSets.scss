@@ -1,0 +1,297 @@
+.proposal{
+    // background: linear-gradient(-45deg,  rgba(#EDEDF0), rgba(#FFF9C8), rgba(#FFA8A8),);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    .nav{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(41, 41, 41, 0.46);
+    }
+    &__content{
+        display: flex;
+    }
+    &__right{
+        max-width: 670px;
+    }
+    &__title{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 51px;
+        text-align: center;
+        color: #292929;
+        padding-top: 87px;
+        width: 670px;
+        padding-left: 155px;
+    }
+    &__description{
+        font-family: ""Proxima Nova"";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #292929;
+        width: 499px;
+        padding-left: 240px;
+        padding-top: 15px;
+    }
+    &__btn{
+        display: flex;
+        
+        &_1{
+            border: 1px solid #4E9DD3;
+            box-sizing: border-box;
+            border-radius: 3px;
+            width: 230px;
+            height: 50px;
+            margin-left: 300px;
+            margin-top: 34px;
+            cursor: pointer;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #000000;
+        }
+
+        &_2{
+            border: 1px solid #4E9DD3;
+            box-sizing: border-box;
+            border-radius: 3px;
+            width: 230px;
+            height: 50px;
+            margin-left: 10px;
+            margin-top: 34px;
+            cursor: pointer;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+    &__text{
+        padding-left: 155px;
+        padding-top: 41px;
+
+        font-family: ""Proxima Nova"";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #292929;
+        width: 670px;
+    }
+}
+
+.sets {   
+    padding-top: 40px;
+    background-color: #E5E5E5;
+    padding-bottom: 95px;
+
+    &__image{
+        width: 370px;
+        height: 300px;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+
+        &__column{
+            width: 33%;
+        }
+    }
+
+    &__item{
+        margin-top: 35px;
+        width: 370px;
+        background: #FFFFFF;
+        border: 1px solid #EDEDF0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        
+        
+        &_name{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            margin-left: 20px;
+        }
+        &_description{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+            max-width: 327px;
+            margin-left: 20px;
+        }
+        &_price{
+            display: flex;
+            padding-top: 50px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #E7426A;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border: 1px solid #EDEDF0;
+        }
+    }
+}
+
+.application{
+    background-color: #F1F1F1;
+    &__content{
+        display: flex;
+    }
+    &__right{
+        
+        &_title{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 37px;
+            color: #292929;
+            padding-top: 100px;
+        }
+        &_description{
+            font-family: ""Proxima Nova"";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #292929;
+            max-width: 570px;
+            padding-top: 13px;
+        }
+      &_inp{
+          display: flex;
+        input{
+            background: #FFFFFF;
+            border: 1px solid #EDEDF0;
+            box-sizing: border-box;
+            width: 270px;
+            height: 50px;
+            margin: 1px;
+        }
+        p{
+            font-family: ""Proxima Nova"";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #292929;
+        }
+      }
+          &_separable{
+              input{
+                width: 570px;
+                height: 60px;
+              }
+              &-text{
+                font-family: ""Proxima Nova"";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                color: #292929;
+              }
+          }
+    }
+    .btn{
+        background: #E7426A;
+        border-radius: 3px;
+        width: 254px;
+        height: 50px;
+        margin-top: 25px;
+
+        &__title{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+    .politic{
+        font-family: ""Proxima Nova"";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+        color: #292929;
+        width: 570px;
+        padding-top: 15px;
+    }
+}
+
+.answer{
+    &__text{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+        color: #292929;
+    }
+
+    .column{
+        display: flex;
+        padding: 30px;
+    }
+    &__box{
+        background: #FFFFFF;
+        border: 1px solid #EDEDF0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 370px;
+        height: 250px;
+        margin: 30px;
+        
+        &_title{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #292929;
+            padding-top: 20px;
+            padding-left: 20px;
+            
+        }
+        &_description{
+            font-family: ""Proxima Nova"";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: #292929;
+            padding-top: 60px;
+            padding-left: 20px;
+        }
+    }
+
+}

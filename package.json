@@ -1,0 +1,23 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx json-server --watch ./data/database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erjan11/store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erjan11/store/issues"
+  },
+  "homepage": "https://github.com/erjan11/store#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

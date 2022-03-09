@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../../store/fonts/Proxima\ Nova\ Font.otf");
+}
+
+@import "./pages/readySets";
+@import "./pages/catalog";
+@import "./pages/weddingSets";
+@import "./pages/contacts";
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+

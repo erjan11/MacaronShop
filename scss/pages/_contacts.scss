@@ -1,0 +1,51 @@
+.nav{
+    text-align: center;
+    font-family: ""Proxima Nova"";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.contact{
+    &__content{
+        display: flex;
+    }
+    img{
+        width: 278px;
+        height: 295px;
+    }
+    &__right{
+        padding-left: 211px;
+        max-width: 470px;
+        &_text{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 51px;
+            color: #292929;
+        }
+        &_title{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #292929;
+            padding-top: 30px;
+            
+        }
+        &_description{
+            font-family: ""Proxima Nova"";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 130%;
+            color: #292929;
+           width: 232px;
+           padding-top: 5px;
+        }
+    }
+}
+

@@ -1,0 +1,233 @@
+
+.nav{
+    font-family: ""Proxima Nova"";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 20px;
+}
+.name {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #292929;
+}
+.maka{
+    background-color: #FEB0E1;
+    margin-top: 45px;
+    display: flex;
+    &__title{
+        max-width: 470px;
+        .h{
+            padding-top: 50px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 37px;
+            text-align: center;
+            color: #292929;
+        }
+        .description{
+            font-family: ""Proxima Nova"";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #292929;
+        }
+        .btn{
+            border: 1px solid #4E9DD3;
+            box-sizing: border-box;
+            border-radius: 3px;
+            background: #FEB0E1;
+            height: 50px;
+            width: 230px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #000000;
+            margin-top: 42px;
+            cursor: pointer;
+        }
+    }
+}
+.choise{
+    &__row{
+        display: flex;
+    }
+    &__column{
+        width: 33.33%;
+    }
+    &__vaffle{
+        margin-top: 45px;
+        padding-top: 41px;
+
+        background: #FFB84E;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 369px;
+        height: 341px;
+        text-align: center;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+     &__ecler{
+        margin-top: 45px;
+        padding-top: 20px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+
+        background: #FEB0E1;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 369px;
+        height: 341px;
+        text-align: center;
+     }
+     &__prof{
+        margin-top: 45px;
+        padding-top: 41px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+
+        .p{
+           padding-bottom: 20px;
+        }
+        background: #FECE95;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 369px;
+        height: 341px;
+        text-align: center;
+     }
+}
+.slider{
+    &__title{
+        padding-top: 75px;
+        text-align: center;
+        width: 470px;
+        padding-left: 350px;
+
+        &_h{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 37px;
+            text-align: center;
+            color: #292929;
+        }
+        &_description{
+            font-family: ""Proxima Nova"";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #292929;
+        }
+    }
+}
+
+.products{
+    padding-top: 20px;
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        &_column{
+            width: 25%;
+        }
+    }
+    img{
+        width: 270px;
+        height: 220px;
+    }
+    &__content{
+        width: 270px;
+        height: 193px;
+        background: #FFFFFF;
+        border: 1px solid #EDEDF0;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        &_name{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #292929;
+            margin-left: 20px;
+        }
+        &_description{
+            font-family: ""Proxima Nova"";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #292929;
+            margin-left: 20px;
+        }
+        &_price{
+            display: flex;
+            padding-top: 50px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #E7426A;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border: 1px solid #EDEDF0;
+        }
+    }
+
+    &__btn{
+        width: 293px;
+        height: 50px;
+        align-items: center;
+        border: 1px solid #4E9DD3;
+        box-sizing: border-box;
+        border-radius: 3px;
+        margin-left: 458px;
+        margin-top: 40px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+        cursor: pointer;
+    }
+}
