@@ -1,0 +1,61 @@
+.wholesaler{
+    &__content{
+        display: flex;
+        &-right{
+            padding-left: 100px;
+            max-width: 670px;
+        }
+    }
+    h1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 51px;
+        text-align: center;
+        color: #292929;
+    }
+    p{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #292929;
+
+    }
+    span, li{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #292929;
+        opacity: 0.9;
+    }
+    button{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+        padding: 10px 40px;
+        align-items: center;
+        margin-left: 75px;
+        border: 1px solid #4E9DD3;
+        box-sizing: border-box;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    img{
+        padding-top: 40px;
+        padding-bottom: 17px;
+    }
+    span{
+        margin-left: 20px;
+    }
+}

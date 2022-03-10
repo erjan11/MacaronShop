@@ -7,6 +7,22 @@
 @import "./pages/catalog";
 @import "./pages/weddingSets";
 @import "./pages/contacts";
+@import './components/header';
+@import './components/footer';
+
+@import './sections/hero';
+@import './sections/care';
+@import './sections/events';
+@import './sections/quality';
+@import './sections/presents';
+@import './sections/questions';
+@import './sections/delivery';
+@import './sections/payment';
+@import './sections/wholesaler';
+@import './sections/offers';
+@import './sections/instagram';
+@import './sections/cooperation';
+@import './sections/contacts';
 
 
 .container {
@@ -17,11 +33,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Montserrat, sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Rubik', sans-serif;
 }
-
-
+main{
+    background: #F7F7F7;
+}

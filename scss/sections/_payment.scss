@@ -1,0 +1,30 @@
+.payment{
+    background: white;
+    &__content{
+        display: flex;
+        &-left{
+            max-width: 470px;
+            h3{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                color: #292929;
+                padding-top: 80px;
+            }
+            p{
+                font-family: Proxima Nova;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 130%;
+                color: #292929;
+                opacity: 0.9;
+            }
+        }
+    }
+    img{
+        padding: 150px;
+    }
+}

@@ -1,0 +1,86 @@
+.presents{
+    background: hsl(0, 0%, 97%);
+    width: 100%;
+    
+    background: linear-gradient(-45deg,  rgba(152, 224, 194, 0.38), rgba(255, 217, 196, 0.61), rgba(252, 172, 213, 0.61), rgba(152, 224, 194, 0.38));
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    &__content{
+        display: flex;
+        &-right{
+            max-width: 570px;
+            padding-left: 50px;
+        }
+    }
+    img{
+        position: relative;
+}
+        .presents2{
+            position: absolute;
+    }
+        .presents3{
+            position: absolute;
+            margin-left: 280px;
+        }
+    h1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 51px;
+        text-align: center;
+        color: #292929;
+
+    }
+    .p{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #292929;
+        max-width: 500px;
+        text-align: center;
+        padding-left: 30px;    
+    }
+    .pp{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #292929;
+        opacity: 0.9;
+        padding-top: 40px;
+    }
+    button{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #E7426A;
+        border-radius: 3px;
+        padding: 10px 17px 10px 17px;
+        border: none;
+        cursor: pointer;
+        margin-left: 150px;
+    }
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__content{
+        padding-top: 50px;
+    }
+    img{
+        padding: 0 20px;
+        cursor: pointer;
+    }
+}

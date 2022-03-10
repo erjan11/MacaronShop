@@ -1,0 +1,40 @@
+.contacts{
+    &__content{
+        display: flex;
+        &-right{
+            padding-left: 220px;
+            padding-top: 50px;
+        }
+    }
+    img{
+        padding-top: 150px;
+        padding-left: 100px;
+    }
+    h1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 51px;
+        color: #292929;
+
+    }
+    h6{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #292929;
+
+    }
+    p{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 130%;
+        color: #292929;
+        opacity: 0.9;
+    }
+}
