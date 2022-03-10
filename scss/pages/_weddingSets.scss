@@ -1,11 +1,14 @@
 .proposal{
-    // background: linear-gradient(-45deg,  rgba(#EDEDF0), rgba(#FFF9C8), rgba(#FFA8A8),);
+    background: hsl(0, 0%, 97%);
+    width: 100%;
+    
+    background: linear-gradient(-45deg,  rgba(152, 224, 194, 0.38), rgba(255, 217, 196, 0.61), rgba(252, 172, 213, 0.61), rgba(152, 224, 194, 0.38));
     background-size: 400% 400%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
     .nav{
-        font-family: Proxima Nova;
+        font-family: "Proxima Nova";
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -19,7 +22,7 @@
         max-width: 670px;
     }
     &__title{
-        font-family: Montserrat;
+        font-family: "Montserrat";
         font-style: normal;
         font-weight: 600;
         font-size: 42px;
@@ -31,7 +34,7 @@
         padding-left: 155px;
     }
     &__description{
-        font-family: ""Proxima Nova"";
+        font-family: Proxima Nova;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -87,7 +90,7 @@
         padding-left: 155px;
         padding-top: 41px;
 
-        font-family: ""Proxima Nova"";
+        font-family: Proxima Nova;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -95,13 +98,33 @@
         color: #292929;
         width: 670px;
     }
+    &__left{
+        img{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
 }
 
-.sets {   
+.setss {   
     padding-top: 40px;
     background-color: #E5E5E5;
     padding-bottom: 95px;
-
+    button{
+        background: #E7426A;
+        border-radius: 3px;
+        border: none;
+        margin-left: 140px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 5px 15px;
+        cursor: pointer;
+    }
     &__image{
         width: 370px;
         height: 300px;
@@ -159,91 +182,32 @@
 }
 
 .application{
-    background-color: #F1F1F1;
     &__content{
         display: flex;
-    }
-    &__right{
-        
-        &_title{
+        h1{
             font-family: Montserrat;
             font-style: normal;
             font-weight: 600;
             font-size: 30px;
             line-height: 37px;
             color: #292929;
-            padding-top: 100px;
+            padding-top: 50px;
         }
-        &_description{
-            font-family: ""Proxima Nova"";
+        p{
+            font-family: Proxima Nova;
             font-style: normal;
             font-weight: normal;
             font-size: 18px;
             line-height: 22px;
             color: #292929;
             max-width: 570px;
-            padding-top: 13px;
         }
-      &_inp{
-          display: flex;
         input{
             background: #FFFFFF;
             border: 1px solid #EDEDF0;
             box-sizing: border-box;
-            width: 270px;
-            height: 50px;
-            margin: 1px;
+            padding: 24px;
         }
-        p{
-            font-family: ""Proxima Nova"";
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 17px;
-            color: #292929;
-        }
-      }
-          &_separable{
-              input{
-                width: 570px;
-                height: 60px;
-              }
-              &-text{
-                font-family: ""Proxima Nova"";
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 17px;
-                color: #292929;
-              }
-          }
-    }
-    .btn{
-        background: #E7426A;
-        border-radius: 3px;
-        width: 254px;
-        height: 50px;
-        margin-top: 25px;
-
-        &__title{
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            color: #FFFFFF;
-        }
-    }
-    .politic{
-        font-family: ""Proxima Nova"";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 11px;
-        line-height: 13px;
-        color: #292929;
-        width: 570px;
-        padding-top: 15px;
     }
 }
 
@@ -283,7 +247,7 @@
             
         }
         &_description{
-            font-family: ""Proxima Nova"";
+            font-family: Proxima Nova;
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -291,6 +255,7 @@
             color: #292929;
             padding-top: 60px;
             padding-left: 20px;
+            padding-bottom: 100px;
         }
     }
 

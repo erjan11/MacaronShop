@@ -4,23 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macarons</title>
+    <link rel="icon" href="./img/logo.png">
+    
     <link rel="stylesheet" href="./css/index.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;400;500;600;700;800&family=Roboto:wght@300;500;700&family=Rubik:wght@400;500&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+
+    <script src="./js/script.js">
+      
+    </script>
+
 </head>
 <body>
 
-   
-    
-        <p class="nav">главная>каталог>готовые наборы
-        </p>
-        <h1 class="name">Готовые наборы</h1>
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="./weddingSets.html">Свадебные предложения</a></li>
+                        <li class="nav__item"><a class="nav__link" href="./readySets.html">Наборы</a></li>
+                        <li class="nav__item"><a class="nav__link" href="./quality.html">Гарантии вкуса и качества</a></li>
+                        <li class="nav__item"><a class="nav__link" href="./delivery.html">Доставка и оплата</a></li>
+                        <li class="nav__item"><a class="nav__link" href="./contacts.html">Контакты</a></li>
+                    </ul>
+                    <div class="social">
+                        <img class="social__img phone" src="./img/Group 6.svg" alt="number">
+                        <span class="social__num">8 812 309-82-88</span>
+                        <img class="social__img" src="./img/корзина.svg" alt="корзина">
+                        <span class="social__bct">Корзина</span>
+            
+                        <a href="https://www.instagram.com/">
+                            <img class="social__img" src="./img/inst.svg" alt="instagram">
+                        </a>
+                        <a href="https://www.facebook.com/">
+                            <img class="social__img" src="./img/fb.svg" alt="facebook">
+                        </a>
+                        <a href="https://vk.com/login">
+                            <img class="social__img" src="./img/vk.svg" alt="vk">
+                        </a>
+            
+                    </div>
+                </div>
+                <button class="header__btn">
+                    Войти
+                </button>
+            </div>
+        </div>
+    </header>
+    <header class="headerr">
+        <div class="container">
+            <div class="sets">
+                <ul class="sets__list">
+                    <a href="./readySets.html"><li class="sets__item">Готовые наборы</li></a>
+                    <a href="./catalog.html"><li class="sets__item">Каталог десертов</li></a>
+                    <a href="./index.html"><li><img class="sets__item" src="./img/logo.png" alt="logo"></li></a>
+                    <a href="./presents.html"><li class="sets__item">Корпоративные подарки</li></a>
+                    <a href="./wholesaler.html"><li class="sets__item">Оптовикам</li></a>
+                </ul>
+            </div>
+        </div>
+    </header>
 
-        <section class="catalog">
+    <section class="catalog">
+            <h1 class="name">Готовые наборы</h1>
             <div class="container">
                 <div class="row">
                     <div class="row__column">
@@ -31,8 +83,8 @@
                                 <div class="catalog__item_description">24 штуки в коробке в виде сердца.
                                     Ассорти из 6 вкусов </div>
                                  <div class="catalog__item_price">
-                                     <p>2800 руб</p>
-                                   <button>В корзину</button>
+                                     2800 руб
+                                    <img class="busket" src="./img/busket.svg" alt="">В корзину 
                                  </div>   
                             </div>
                         </div>
@@ -44,7 +96,9 @@
                             <div class="catalog__iamge_content">
                                 <h2 class="catalog__item_name">Красота спасёт мир</h2>
                                 <div class="catalog__item_description">Набор 16 шт. Вкусы: клубника - базилик, кокос, голубой сыр, пармезан </div>
-                                 <div class="catalog__item_price">750 руб</div>   
+                                 <div class="catalog__item_price">750 руб
+                                    <img class="busket" src="./img/busket.svg" alt="">В корзину 
+                                 </div>   
                             </div>
                         </div>
                     </div>
@@ -55,7 +109,9 @@
                             <div class="catalog__iamge_content">
                                 <h2 class="catalog__item_name">Набор на 9</h2>
                                 <div class="catalog__item_description">Набор из 9 штук в квадратной коробке. Вкусы: шоколад, фисташка, вишня </div>
-                                 <div class="catalog__item_price">950 руб</div>   
+                                 <div class="catalog__item_price">950 руб
+                                    <img class="busket" src="./img/busket.svg" alt="">В корзину 
+                                 </div>   
                             </div>
                         </div>
                     </div>
@@ -66,7 +122,9 @@
                             <div class="catalog__iamge_content">
                                 <h2 class="catalog__item_name">Набор на 16</h2>
                                 <div class="catalog__item_description">Набор 16 шт. Вкусы: соленая карамель, голубой сыр, пармезан, шоколад  </div>
-                                 <div class="catalog__item_price">1500 руб</div>   
+                                 <div class="catalog__item_price">1500 руб
+                                    <img class="busket" src="./img/busket.svg" alt="">В корзину 
+                                 </div>   
                             </div>
                         </div>
                     </div>
@@ -78,7 +136,9 @@
                                 <h2 class="catalog__item_name">Круг</h2>
                                 <div class="catalog__item_description">24 штуки в коробке в виде сердца.
                                     Ассорти из 6 вкусов </div>
-                                 <div class="catalog__item_price">2500 руб</div>   
+                                 <div class="catalog__item_price">2500 руб
+                                    <img class="busket" src="./img/busket.svg" alt="">В корзину 
+                                 </div>   
                             </div>
                         </div>
                     </div>
@@ -90,17 +150,96 @@
                                 <h2 class="catalog__item_name">Сердце</h2>
                                 <div class="catalog__item_description">24 штуки в коробке в виде сердца.
                                     Ассорти из 6 вкусов </div>
-                                 <div class="catalog__item_price">2800 руб</div>   
+                                 <div class="catalog__item_price">2800 руб
+                                    <img class="busket" src="./img/busket.svg" alt="">В корзину 
+                                 </div>   
                             </div>
                         </div>
                     </div>
+                    
 
 
                 </div>
+                
                 <button class="catalog__btn">Показать еще</button>
             </div>
-        </section>
+    </section>
         
     <script defer src="./js/readySets.js"></script>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+
+               <div class="footer__left">
+                <div class="footer__left-top">
+                    <div class="col1">
+                        <img src="./img/footer icon1.svg" alt="">
+                        <span>Готовим вручную и с любовью</span>
+                    </div>
+                    <div class="col2">
+                        <img src="./img/car footer icon.svg" alt="">
+                        <span>Доставим в день заказа</span>
+                    </div>
+                   <div class="col3">
+                        <img src="./img/footer icon3.svg" alt="">
+                        <span>100% миндальная мукаи натуральные ингредиенты</span>
+                   </div>
+                </div>
+                <div class="footer__left-bottom">
+                    <p>
+                        © 2021 МакароншопООО "Квантум", Санкт-Петербург,  улица Маршала Тухачевского, дом 22
+                    </p>
+                </div>
+                
+            
+            </div>
+                <div class="footer__right">
+                <div class="footer__information">
+                    <h3 class="footer__title">Информация</h3>
+                    <ul>
+                        <li> О компании </li>
+                        <li> Гарантии вкуса и свежести</li>
+                        <li> Доставка и оплата</li>
+                        <li> Контакты</li>
+                    </ul>
+                </div>
+
+                <div class="footer__catalog">
+                    <h3 class="footer__title">Каталог</h3>
+                    <ul>
+                        <li> Каталог десертов </li>
+                        <li> Готовые наборы </li>
+                        <li> Собрать свой набор </li>
+                        <li> Акции </li>
+                    </ul>
+                </div>
+
+                <div class="footer__buisness">
+                    <h3 class="footer__title">Для бизнеса</h3>
+                    <ul>
+                        <li> Корпоративные подарки </li>
+                        <li> Для юридических лиц</li>
+                        <li> Оптовикам</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__number">
+                    <h3 class="footer__title"><a href="">+7 (812) 309 82 88</a></h3>
+                    <span>с 9:00 до 21:00</span>
+                    <div class="footer__number-img">
+                        <a href="https://www.instagram.com/"><img src="./img/inst icon footer.svg" alt=""></a>
+                        <a href="https://www.facebook.com/settings?tab=applications&ref=settings">
+                            <img src="./img/fb icon footer.svg" alt=""></a>
+                        <a href="https://vk.com/"><img src="./img/vk icon footer.svg" alt=""></a>
+                    </div>
+                </div>
+
+               </div>
+
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
+

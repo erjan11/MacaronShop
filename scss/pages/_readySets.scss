@@ -4,13 +4,13 @@ body{
 }
 
 .nav{
-    font-family: ""Proxima Nova"";
+    font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    padding-top: 20px;
+    // padding-top: 20px;
 }
 .name {
     text-align: center;
@@ -24,6 +24,11 @@ body{
 
 .catalog{   
     padding-top: 40px;
+    .busket{
+        margin-left: 130px;
+        cursor: pointer;
+        padding: 0 5px;
+    }
 
     &__nav{
         
@@ -36,7 +41,7 @@ body{
         }
     }
 
-    &__iamge{
+    &__image{
         width: 370px;
         height: 300px;
     }

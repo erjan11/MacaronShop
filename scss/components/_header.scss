@@ -9,6 +9,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &__btn{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+
+        background: #E7426A;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+        padding: 5px 7px;
+        margin-left: 30px;
+
+    }
+    &__btn:hover {
+        transition: all 300ms ease;
+        background-color: #fff;
+        color: #E7426A;
+        font-weight: 500;
+        font-family: Montserrat;
+        font-weight: 600;
+}
     &__row{
         display: flex;
         justify-content: space-between;
@@ -40,7 +64,13 @@
         font-family: "Proxima Nova";
         text-decoration: none;
         list-style-type: none;
-        color: rgba(0, 0, 0, 0.79);
+        color: rgba(0, 0, 0, 0.79);}
+
+    a:hover {
+        transform: translateX(10%);
+        transition: all 300ms ease;
+        color: #E7426A;
+        font-weight: 500;
     }
 }
     .social{
@@ -58,6 +88,12 @@
         color: rgba(0, 0, 0, 0.79);
         padding-right: 20px;
     }
+    &__bct:hover {
+        transform: translateX(10%);
+        transition: all 300ms ease;
+        color: #E7426A;
+        font-weight: 500;
+    }
     &__num{
         font-family: "Proxima Nova";
         font-style: normal;
@@ -68,6 +104,12 @@
         padding-right: 20px;
         color: #2B1414;
         cursor: pointer;
+    }
+    &__num:hover {
+            transform: translateX(10%);
+            transition: all 300ms ease;
+            color: #E7426A;
+            font-weight: 500;
     }
     &__img{
         margin-left: 10px;
@@ -94,7 +136,15 @@
                     text-transform: uppercase;
                     color: #2B1414;
                     margin-left: 40px;
+
+
                 }
+                a:hover {
+                    transform: translateY(10%);
+                    transition: all 300ms ease;
+                    color: #E7426A;
+                    font-weight: 500;
+            }
             }
 }
 
