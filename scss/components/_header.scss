@@ -9,6 +9,54 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+   
+
+    &__btn{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+
+        background: #E7426A;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+        padding: 5px 7px;
+        margin-left: 30px;
+
+        &_out{
+            display: none;
+        }
+
+        .user-name{
+            display: none;
+            font-family: Montserrat;
+            font-size: 20px;
+            padding-left: 5px;
+        }
+
+    }
+
+    &__out{
+        display: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+
+        background: #E7426A;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+        padding: 5px 7px;
+       
+    }
+
     &__row{
         display: flex;
         justify-content: space-between;

@@ -20,12 +20,14 @@
 </head>
 <body>
 
+
     <header class="header">
+
         <div class="container">
             <div class="header__row">
                 <div class="nav">
                     <ul class="nav__list">
-                        <li class="nav__item"><a class="nav__link" href="#">Свадебные предложения</a></li>
+                        <li class="nav__item"><a class="nav__link" href="./weddingSets.html">Свадебные предложения</a></li>
                         <li class="nav__item"><a class="nav__link" href="./readySets.html">Наборы</a></li>
                         <li class="nav__item"><a class="nav__link" href="./quality.html">Гарантии вкуса и качества</a></li>
                         <li class="nav__item"><a class="nav__link" href="./delivery.html">Доставка и оплата</a></li>
@@ -49,7 +51,20 @@
             
                     </div>
                 </div>
+                <button class="header__btn">
+                    <div class="header__btn_auth">Войти</div>
+                    <!-- <div class="header__btn_out">Выйти</div>
+                    <span class="user-name">Erjan</span> -->
+                </button>
+
+                <span class="user-name"></span>
+
+                <button class="header__out">
+                    <div>Выйти</div>
+                </button>
+                
             </div>
+
         </div>
     </header>
     <header class="headerr">
@@ -65,6 +80,35 @@
             </div>
         </div>
     </header>
+
+    <div class="modalauth">
+        <div class="modal-overlay">
+            <div class="modal-window">
+                <form id="logInForm">
+                <div class="modal-header">
+                    <span class="modal-title">Авторизация</span>
+                    <span class="modal-close">&times</span>
+                </div>
+                <div class="modal-body">
+                    <label class="label-auth">
+                    <span>Логин</span>
+                    <input id="login" type="text">
+                </label>
+                <label class="label-auth">
+                    <span>Пароль</span>
+                    <input id="password" type="password">
+                </label>
+                </div>
+
+                <div class="modal-footer">
+                    <div class="footer-buttons">
+                    <button>Зарегистрироваться</button>
+                </div>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
 
     <main>
         <section class="hero">
@@ -252,5 +296,10 @@
             </div>
         </div>
     </footer>
+
+   
+
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
